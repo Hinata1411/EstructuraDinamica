@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fad9c68-8a6b-4157-8bd7-5c75ca6e3208" name="Changes" comment="Comentarios de la clase nodo">
+    <list default="true" id="3fad9c68-8a6b-4157-8bd7-5c75ca6e3208" name="Changes" comment="Creamos el método para insertar al inicio">
       <change beforePath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,13 +67,22 @@
       <option name="project" value="LOCAL" />
       <updated>1708741933336</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creamos el método para insertar al inicio">
+      <option name="closed" value="true" />
+      <created>1708742441743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708742441743</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creamos la clase nodo en donde estará la variable dato con las opciones de nodo" />
     <MESSAGE value="Creamos una clase en donde iran todas las opciones de insertar, recorrer, mostrar tamanio, etc" />
     <MESSAGE value="Comentarios de la clase nodo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comentarios de la clase nodo" />
+    <MESSAGE value="Creamos el método para insertar al inicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creamos el método para insertar al inicio" />
   </component>
 </project>

@@ -30,5 +30,20 @@ public class ListaDoblementeEnlazada {
         tamanio++; // Y el tamaño de la lista aumenta.
     }
 
+    //Método para recorrer hacia adelante
+    public void recorrerAdelante(){
+        //Creamos un objeto de la clase nodo llamado actual que se inicializa con el noco que está al principio
+        Nodo actual = inicio;
+        //Con un ciclo se recorrerá la variable actual hasta que sea diferente de nulo
+        while (actual != null){
+            System.out.println(actual.dato + ""); //Se imprime en consola el valor actual que tiene dato
+            actual = actual.siguiente; //Y luego actual toma el valor del siguiente nodo en la lista.
+        }
+        System.out.println();
+    }
+
+
+
+
 
 }
