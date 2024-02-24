@@ -64,6 +64,28 @@ public class ListaDoblementeEnlazada {
         System.out.println("La lista se encuentra vacía: " + (tamanio == 0));
     }
 
+    //Método para buscar Elemento por Valor
+    public void buscarElementoPorValor(int valor) {
+        //Creamos un objeto de la clase nodo llamado actual que se inicializa con el nodo que está al inicio
+        Nodo actual = inicio;
+        //Creamos una variable entera llamada indice que comenzará en 0
+        int indice = 0;
+        //Con un ciclo recorremos la variable actual hasta que sea nula
+        while (actual != null) {
+            //Si es diferente de nula, con una condicional verificamos si la variable actual.dato es igual al valor a buscar
+            if (actual.dato == valor) {
+                System.out.println("El elemento se encuentra en la lista en el índice: " + indice); //Si es igual imprime el lugar en el indice en donde se encuentra el valor
+                return;
+            }
+            actual = actual.siguiente; //La variable actual toma el valor del siguiente nodo
+            indice++; //Indice aumenta
+        }
+        System.out.println("El elemento no se encuentra en la lista"); //Si este valor no se encuentra en la lista se muestra este mensaje en consola
+    }
+
+
+
+
 
 
 
