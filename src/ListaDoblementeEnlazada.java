@@ -30,6 +30,20 @@ public class ListaDoblementeEnlazada {
         tamanio++; // Y el tamaño de la lista aumenta.
     }
 
+    //Método para insertar un valor al final de la lista
+    public void insertarFinal(int dato) {
+        Nodo nuevoNodo = new Nodo(dato);
+        if (inicio == null) {
+            inicio = nuevoNodo;
+            fin = nuevoNodo;
+        } else {
+            fin.siguiente = nuevoNodo;
+            nuevoNodo.anterior = fin;
+            fin = nuevoNodo;
+        }
+        tamanio++;
+    }
+
     //Método para recorrer hacia adelante
     public void recorrerAdelante(){
         //Creamos un objeto de la clase nodo llamado actual que se inicializa con el nodo que está al principio
@@ -131,13 +145,3 @@ public class ListaDoblementeEnlazada {
 
 
 
-
-
-
-
-
-
-
-
-
-}

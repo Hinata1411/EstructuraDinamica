@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fad9c68-8a6b-4157-8bd7-5c75ca6e3208" name="Changes" comment="Creamos el método para buscar elemento por valor">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3fad9c68-8a6b-4157-8bd7-5c75ca6e3208" name="Changes" comment="Creamos el método para buscar elemento por índice">
       <change beforePath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708743413438</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Creamos el método para buscar elemento por índice">
+      <option name="closed" value="true" />
+      <created>1708743798561</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708743798561</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,6 +136,7 @@
     <MESSAGE value="Creamos el método para mostrar el tamaño de la lista" />
     <MESSAGE value="Creamos el método para mostrar si la lista está vacia" />
     <MESSAGE value="Creamos el método para buscar elemento por valor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creamos el método para buscar elemento por valor" />
+    <MESSAGE value="Creamos el método para buscar elemento por índice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creamos el método para buscar elemento por índice" />
   </component>
 </project>
