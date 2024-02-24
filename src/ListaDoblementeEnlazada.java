@@ -32,12 +32,24 @@ public class ListaDoblementeEnlazada {
 
     //Método para recorrer hacia adelante
     public void recorrerAdelante(){
-        //Creamos un objeto de la clase nodo llamado actual que se inicializa con el noco que está al principio
+        //Creamos un objeto de la clase nodo llamado actual que se inicializa con el nodo que está al principio
         Nodo actual = inicio;
-        //Con un ciclo se recorrerá la variable actual hasta que sea diferente de nulo
+        //Con un ciclo recorrerá la variable actual hasta que actual sea nula
         while (actual != null){
             System.out.println(actual.dato + ""); //Se imprime en consola el valor actual que tiene dato
             actual = actual.siguiente; //Y luego actual toma el valor del siguiente nodo en la lista.
+        }
+        System.out.println();
+    }
+
+    //Método para recrorrer hacia atras
+    public void recorrerAtras(){
+        //Creamos un objeto de la clase nodo llamado actual que se inicializa con el nodo que está al final
+        Nodo actual = fin;
+        //Con un ciclo recorrerá la variable actual hasta que actual sea nula
+        while (actual != null){
+            System.out.println(actual.dato + ""); //Se imprime en consola el valor actual que tiene dato
+            actual = actual.anterior; //Y luego actual toma el valor del nodo anterior en la lista.
         }
         System.out.println();
     }
