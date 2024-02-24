@@ -59,6 +59,12 @@ public class ListaDoblementeEnlazada {
         System.out.println("El tamaño de la lista es de: " + tamanio);
     }
 
+    //Método para mostrar la lista si está vacia
+    public void mostrarSiEstaVacia(){
+        System.out.println("La lista se encuentra vacía: " + (tamanio == 0));
+    }
+
+
 
 
 

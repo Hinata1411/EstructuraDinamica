@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fad9c68-8a6b-4157-8bd7-5c75ca6e3208" name="Changes" comment="Creamos el método para insertar al inicio">
+    <list default="true" id="3fad9c68-8a6b-4157-8bd7-5c75ca6e3208" name="Changes" comment="Creamos el método para recorrer hacia atras">
       <change beforePath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708742441743</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creamos el método para recorrer hacia adelante">
+      <option name="closed" value="true" />
+      <created>1708742779111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708742779111</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Creamos el método para recorrer hacia atras">
+      <option name="closed" value="true" />
+      <created>1708743038161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708743038161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -83,6 +99,8 @@
     <MESSAGE value="Creamos una clase en donde iran todas las opciones de insertar, recorrer, mostrar tamanio, etc" />
     <MESSAGE value="Comentarios de la clase nodo" />
     <MESSAGE value="Creamos el método para insertar al inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creamos el método para insertar al inicio" />
+    <MESSAGE value="Creamos el método para recorrer hacia adelante" />
+    <MESSAGE value="Creamos el método para recorrer hacia atras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creamos el método para recorrer hacia atras" />
   </component>
 </project>
