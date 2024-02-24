@@ -22,31 +22,32 @@ public class Main {
             System.out.println();
             opcion = obtenerEntero();
 
+            //Switch con las opciones que se le mostrarán al usuario
             switch (opcion) {
                 case 1:
-                    System.out.print("Ingrese el valor a insertar al inicio: ");
+                    System.out.print("Ingrese el valor que desea insertar al inicio: ");
                     valor = obtenerEntero();
                     lista.insertarInicio(valor);
                     break;
 
                 case 2:
-                    System.out.print("Ingrese el valor a insertar al final: ");
+                    System.out.print("Ingrese el valor que desea insertar al final: ");
                     valor = obtenerEntero();
                     lista.insertarFinal(valor);
                     break;
 
                 case 3:
                     System.out.println("Recorrido hacia Adelante:");
-                    lista.recorrerHaciaAdelante();
+                    lista.recorrerAdelante();
                     break;
 
                 case 4:
                     System.out.println("Recorrido hacia Atrás:");
-                    lista.recorrerHaciaAtras();
+                    lista.recorrerAtras();
                     break;
 
                 case 5:
-                    lista.mostrarTamaño();
+                    lista.mostrarTamanio();
                     break;
 
                 case 6:
@@ -54,41 +55,43 @@ public class Main {
                     break;
 
                 case 7:
-                    System.out.print("Ingrese el valor a buscar: ");
+                    System.out.print("Ingrese el valor que desea buscar: ");
                     valor = obtenerEntero();
                     lista.buscarElementoPorValor(valor);
                     break;
 
                 case 8:
-                    System.out.print("Ingrese el índice a buscar: ");
+                    System.out.print("Ingrese el índice que desea buscar: ");
                     indice = obtenerEntero();
                     lista.buscarElementoPorIndice(indice);
                     break;
 
                 case 9:
-                    System.out.print("Ingrese el valor a borrar: ");
+                    System.out.print("Ingrese el valor que desea borrar: ");
                     valor = obtenerEntero();
                     lista.borrarElemento(valor);
                     break;
 
                 case 0:
-                    System.out.println("Saliendo del programa.");
+                    System.out.println("Fin del programa.");
                     break;
 
                 default:
-                    System.out.println("Opción no válida. Inténtelo de nuevo.");
+                    System.out.println("Opción no válida. Ingrese un dato válido.");
                     break;
             }
 
         } while (opcion != 0);
     }
 
+    //Método para pedirle al usuario que ingrese un valor para buscar ya sea por valor o por índice
     private static int obtenerEntero() {
         try {
             java.util.Scanner scanner = new java.util.Scanner(System.in);
             return scanner.nextInt();
         } catch (java.util.InputMismatchException e) {
-            System.out.println("Error: Ingrese un valor entero válido.");
+            System.out.println("Error");
+            System.out.println("Por favor ingrese un valor entero válido");
             return 0;
         }
 

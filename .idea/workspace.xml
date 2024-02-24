@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fad9c68-8a6b-4157-8bd7-5c75ca6e3208" name="Changes" comment="Creamos el método para buscar elemento por índice">
-      <change beforePath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" afterDir="false" />
+    <list default="true" id="3fad9c68-8a6b-4157-8bd7-5c75ca6e3208" name="Changes" comment="Creamos el método para insertar elementos al final de la lista y métodos utilizados en el main">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708743798561</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creamos el método para eliminar elementos de la lista">
+      <option name="closed" value="true" />
+      <created>1708744223227</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708744223227</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Creamos el método para insertar elementos al final de la lista y métodos utilizados en el main">
+      <option name="closed" value="true" />
+      <created>1708744437701</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708744437701</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +153,8 @@
     <MESSAGE value="Creamos el método para mostrar si la lista está vacia" />
     <MESSAGE value="Creamos el método para buscar elemento por valor" />
     <MESSAGE value="Creamos el método para buscar elemento por índice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creamos el método para buscar elemento por índice" />
+    <MESSAGE value="Creamos el método para eliminar elementos de la lista" />
+    <MESSAGE value="Creamos el método para insertar elementos al final de la lista y métodos utilizados en el main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creamos el método para insertar elementos al final de la lista y métodos utilizados en el main" />
   </component>
 </project>
