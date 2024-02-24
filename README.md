@@ -6,15 +6,15 @@ Marta Bonilla
 Programa en java que implementa las estructuras de lista doblemente enlazada y muestra el siguiente menu:
 
 Lista Doblemente enlazada
-Insertar al inicio
-Insertar al Final
-Recorrer hacia adelante
-Recorrer hacia atras
-Mostrar tamaño de la lista
-Mostrar si la lista esta vacia
-Buscar elemento por valor
-Buscar elemento por indice
-Borrar un Elemento
+1. Insertar al inicio
+2. Insertar al Final
+3. Recorrer hacia adelante
+4. Recorrer hacia atras
+5. Mostrar tamaño de la lista
+6. Mostrar si la lista esta vacia
+7. Buscar elemento por valor
+8. Buscar elemento por indice
+9. Borrar un Elemento
 
 Link de ejecución del programa 
 https://drive.google.com/file/d/1_y3AS9RLfFIOsncdvxeb2FyVyTreOKHV/view?usp=sharing
