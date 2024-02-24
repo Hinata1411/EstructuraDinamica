@@ -86,7 +86,7 @@ public class ListaDoblementeEnlazada {
     //Método para buscar un elemento de la lista por medio del índice
     public void buscarElementoPorIndice(int indice) { //Creamos el método colocandole el parámetro de indice
         if (indice < 0 || indice >= tamanio) { //con una condicional verificamos si indice es menor que 0 o indice es mayor o igual al tamaño de la lista
-            System.out.println("Índice fuera de rango"); //Se imprime un mensaje en consola indicando que el indice está fuera del rango
+            System.out.println("El índice se encuentra fuera de rango"); //Se imprime un mensaje en consola indicando que el indice está fuera del rango
             return;
         } //Si el indice es mayor que 0 o menor o igual que el tamaño de la lista el nodo actual se posiciona al inicio de la lista
         Nodo actual = inicio;
@@ -97,6 +97,38 @@ public class ListaDoblementeEnlazada {
 
         System.out.println("El elemento se encuentra en el índice " + indice + ": " + actual.dato); //Se imprime en consola el indice del elemento encontrado junto con el valor actual de ese nodo
     }
+
+    //Método para borrar elementos de la lista
+    public void borrarElemento(int valor) { //El método toma el parámetro entero llamado valor que es el que se desea eliminar
+        //Creamos un objeto de la clase nodo llamado actual que se inicializa con el nodo que está al inicio
+        Nodo actual = inicio;
+        //Con un ciclo recorremos la variable actual hasta que sea nula
+        while (actual != null) {
+            //Si es diferente de nula, con una condicional verificamos si la variable actual.dato es igual al valor a eliminar
+            if (actual.dato == valor) {
+                //Con otra condicional verificamos si el nodo actual es el nodo inicial de la lista
+                if (actual.anterior == null) {
+                    inicio = actual.siguiente;
+                    if (inicio != null) {
+                        inicio.anterior = null;
+                    }
+                } else if (actual.siguiente == null) {
+                    fin = actual.anterior;
+                    fin.siguiente = null;
+                } else {
+                    actual.anterior.siguiente = actual.siguiente;
+                    actual.siguiente.anterior = actual.anterior;
+                }
+                tamanio--;
+                System.out.println("El elemento eliminado contiene el valor de: " + valor);
+                return;
+            }
+            actual = actual.siguiente;
+        }
+        System.out.println("El elemento no se ha encontrado en la lista");
+    }
+}
+
 
 
 
