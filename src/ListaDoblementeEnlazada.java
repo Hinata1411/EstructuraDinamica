@@ -83,6 +83,23 @@ public class ListaDoblementeEnlazada {
         System.out.println("El elemento no se encuentra en la lista"); //Si este valor no se encuentra en la lista se muestra este mensaje en consola
     }
 
+    //Método para buscar un elemento de la lista por medio del índice
+    public void buscarElementoPorIndice(int indice) { //Creamos el método colocandole el parámetro de indice
+        if (indice < 0 || indice >= tamanio) { //con una condicional verificamos si indice es menor que 0 o indice es mayor o igual al tamaño de la lista
+            System.out.println("Índice fuera de rango"); //Se imprime un mensaje en consola indicando que el indice está fuera del rango
+            return;
+        } //Si el indice es mayor que 0 o menor o igual que el tamaño de la lista el nodo actual se posiciona al inicio de la lista
+        Nodo actual = inicio;
+        //Con un ciclo for se recorre la lista avanzando de uno en uno desde el nodo inicial hasta el nodo que contenga el indice igual al valor a buscar
+        for (int i = 0; i < indice; i++) {
+            actual = actual.siguiente; //La variable actual en cada iteración va tomando el valor del siguiente nodo
+        }
+
+        System.out.println("El elemento se encuentra en el índice " + indice + ": " + actual.dato); //Se imprime en consola el indice del elemento encontrado junto con el valor actual de ese nodo
+    }
+
+
+
 
 
 
