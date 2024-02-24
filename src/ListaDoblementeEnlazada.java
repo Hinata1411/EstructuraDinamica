@@ -54,6 +54,11 @@ public class ListaDoblementeEnlazada {
         System.out.println();
     }
 
+    //Método para mostrar el tamaño de la lista
+    public void mostrarTamanio(){
+        System.out.println("El tamaño de la lista es de: " + tamanio);
+    }
+
 
 
 
